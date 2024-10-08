@@ -14,10 +14,6 @@ namespace dvdrental
             var database = new DatabaseInitial(connectionSting);
 
             database.Initialize();
-            database.CreateCustomerTable();
-            database.CreateCategoryTable();
-            database.CreateMovieTable();
-            database.CreateRentalRequestTable();
 
             // Add services to the container.
 
