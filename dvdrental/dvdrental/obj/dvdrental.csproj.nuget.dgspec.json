@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manch\\Desktop\\projects\\group pro\\backend\\bgack yyt\\dvd\\dvdrental\\dvdrental\\dvdrental.csproj": {}
+    "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manch\\Desktop\\projects\\group pro\\backend\\bgack yyt\\dvd\\dvdrental\\dvdrental\\dvdrental.csproj": {
+    "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manch\\Desktop\\projects\\group pro\\backend\\bgack yyt\\dvd\\dvdrental\\dvdrental\\dvdrental.csproj",
+        "projectUniqueName": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
         "projectName": "dvdrental",
-        "projectPath": "C:\\Users\\manch\\Desktop\\projects\\group pro\\backend\\bgack yyt\\dvd\\dvdrental\\dvdrental\\dvdrental.csproj",
+        "projectPath": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
         "packagesPath": "C:\\Users\\manch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manch\\Desktop\\projects\\group pro\\backend\\bgack yyt\\dvd\\dvdrental\\dvdrental\\obj\\",
+        "outputPath": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\manch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,14 +39,17 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
