@@ -29,6 +29,8 @@ namespace dvdrental
             builder.Services.AddSingleton<IRentalRequestRepository>(provider => new RentalRequestRepository(connectionSting));
             builder.Services.AddSingleton<IRentalRequestService>(provider => new RentalrequestService(provider.GetRequiredService<IRentalRequestRepository>()));
 
+            builder.Services.AddScoped<ICategoryRepository>(provider => new CategoryRepository(connectionSting));
+            builder.Services.AddSingleton<ICategoryService>(provider => new CategoryService(provider.GetRequiredService<ICategoryRepository>()));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

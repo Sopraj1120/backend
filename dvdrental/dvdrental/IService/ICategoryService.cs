@@ -5,7 +5,7 @@ namespace dvdrental.IService
 {
     public interface ICategoryService
     {
-        Task AddCategory(CategoryRequestDto categoryDto);
+        Task<CategoryResponceDto> AddCategory(CategoryRequestDto categoryDto);
         Task UpdateCategory(int id, CategoryRequestDto categoryDto);
         Task DeleteCategory(int id);
         Task<List<CategoryResponceDto>> GetCategories();

@@ -20,7 +20,7 @@ internal class DatabaseInitial
 
 
             string adminQuery = @"
-                    IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Admins' AND xtype='U')
+                    IF NOT EXISTS (SELECT * FROM sys.Table WHERE name='Admins' )
                     BEGIN
                         CREATE TABLE Admins (
                             Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -29,7 +29,7 @@ internal class DatabaseInitial
                             Password NVARCHAR(256) NOT NULL
                         );
                     END";
-
+            
             using (var adminCommand = new SqlCommand(adminQuery, connection))
             {
                 adminCommand.ExecuteNonQuery();

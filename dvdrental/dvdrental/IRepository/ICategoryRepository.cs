@@ -4,8 +4,8 @@ namespace dvdrental.IRepository
 {
     public interface ICategoryRepository
     {
-        Task AddCategory(string name);
-        Task UpdateCategory(int id, string name);
+        Task AddCategory(Category category);
+        Task UpdateCategory(Category category);
         Task DeleteCategory(int id);
         Task<List<Category>> GetCategories();
         Task<Category> GetCategoryById(int id);

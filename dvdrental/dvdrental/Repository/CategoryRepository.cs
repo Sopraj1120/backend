@@ -13,40 +13,87 @@ namespace dvdrental.Repository
             _connectionString = connectionString;
         }
 
-        public async Task AddCategory(string name)
+        public async Task AddCategory(Category category)
         {
-           
+            using var connection = new SqlConnection(_connectionString);
+            await connection.OpenAsync();
+
+            string query = "INSERT INTO Categories (Name) VALUES (@name)";
+
+            using var command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@name", category.Name);
+
+
+            await command.ExecuteNonQueryAsync();
+
         }
 
-        public async Task UpdateCategory(int id, string name)
+        public async Task UpdateCategory(Category category)
         {
-           
+            using var connection = new SqlConnection(_connectionString);
+            await connection.OpenAsync();
+
+            string query = "UPDATE Categories SET Name = @name WHERE Id = @id";
+            using var command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", category.Id);
+            command.Parameters.AddWithValue("@name", category.Name);
+            await command.ExecuteNonQueryAsync();
         }
 
         public async Task DeleteCategory(int id)
         {
-            
-            
+            using var connection = new SqlConnection(_connectionString);
+            await connection.OpenAsync();
+
+            string query = "DELETE FROM Categories WHERE Id = @id";
+            using var command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", id);
+            await command.ExecuteNonQueryAsync();
+
         }
 
-        public Task<List<Category>> GetCategories()
+        public async Task<List<Category>> GetCategories()
         {
-            throw new NotImplementedException();
+            var categories = new List<Category>();
+            using var connection = new SqlConnection(_connectionString);
+            await connection.OpenAsync();
+
+            string query = "SELECT * FROM Categories";
+            using var command = new SqlCommand(query, connection);
+            using var reader = await command.ExecuteReaderAsync();
+
+            while (await reader.ReadAsync())
+            {
+                categories.Add(new Category
+                {
+                    Id = reader.GetInt32(0),
+                    Name = reader.GetString(1)
+                });
+            }
+
+            return categories;
         }
 
-        public Task<Category> GetCategoryById(int id)
+        public async Task<Category> GetCategoryById(int id)
         {
-            throw new NotImplementedException();
+            using var connection = new SqlConnection(_connectionString);
+            await connection.OpenAsync();
+
+            string query = "SELECT * FROM Categories WHERE Id = @id";
+            using var command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", id);
+            using var reader = await command.ExecuteReaderAsync();
+
+            if (await reader.ReadAsync())
+            {
+                return new Category
+                {
+                    Id = reader.GetInt32(0),
+                    Name = reader.GetString(1)
+                };
+            }
+
+            return null;
         }
-
-        //public async Task<List<Category>> GetCategories()
-        //{
-
-        //}
-
-        //public async Task<Category> GetCategoryById(int id)
-        //{
-
-        //}
     }
 }
