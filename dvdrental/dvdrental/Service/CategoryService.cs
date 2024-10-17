@@ -5,6 +5,7 @@ using dvdrental.IService;
 
 namespace dvdrental.Service
 {
+
     public class CategoryService :ICategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
@@ -29,14 +30,25 @@ namespace dvdrental.Service
        
         }
 
-        public async Task<List<CategoryResponceDto>> GetCategories()
+        public Task<List<CategoryResponceDto>> GetCategories()
         {
-           
+            throw new NotImplementedException();
         }
 
-        public async Task<CategoryResponceDto> GetCategoryById(int id)
+        public Task<CategoryResponceDto> GetCategoryById(int id)
         {
-           
+            throw new NotImplementedException();
         }
+
+        //public async Task<List<CategoryResponceDto>> GetCategories()
+        //{
+
+
+        //}
+
+        //public async Task<CategoryResponceDto> GetCategoryById(int id)
+        //{
+
+        //}
     }
 }

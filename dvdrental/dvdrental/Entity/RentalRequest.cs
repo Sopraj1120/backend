@@ -6,10 +6,10 @@
 
         public int MovieId { get; set; }
 
-       
+
         public Movies Movie { get; set; }
 
-      
+
         public int MoviesAvailableCopies { get; set; }
 
      
@@ -23,7 +23,17 @@
 
         public DateTime RentDate { get; set; } = DateTime.Now;
         public DateTime ReturnDate { get; set; }
+        public string Image {  get; set; }
+        //public object MovieImageType { get;  set; }
+        //public object MovieImage { get;  set; }
+       
 
-
+        public enum RentalStatus
+        {
+            Pending,
+            Approved,
+            Rejected,
+            Returned
+        }
     }
 }

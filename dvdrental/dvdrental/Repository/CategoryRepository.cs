@@ -29,14 +29,24 @@ namespace dvdrental.Repository
             
         }
 
-        public async Task<List<Category>> GetCategories()
+        public Task<List<Category>> GetCategories()
         {
-           
+            throw new NotImplementedException();
         }
 
-        public async Task<Category> GetCategoryById(int id)
+        public Task<Category> GetCategoryById(int id)
         {
-           
+            throw new NotImplementedException();
         }
+
+        //public async Task<List<Category>> GetCategories()
+        //{
+
+        //}
+
+        //public async Task<Category> GetCategoryById(int id)
+        //{
+
+        //}
     }
 }

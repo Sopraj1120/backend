@@ -20,14 +20,14 @@ namespace dvdrental
             database.Initialize();
             
 
+            //builder.Services.AddScoped<IAdminRepository>(provider =>new AdminRepository(connectionSting));
+            //builder.Services.AddSingleton<IAdminService>(provider => new AdminService(provider.GetRequiredService<IAdminRepository>()));
 
-            builder.Services.AddScoped<IAdminRepository>(provider =>new AdminRepository(connectionSting));
-            builder.Services.AddSingleton<IAdminService>(provider => new AdminService(provider.GetRequiredService<IAdminRepository>()));
+            //builder.Services.AddScoped<ICustomerRepository>(provider => new CustomerRepository(connectionSting));
+            //builder.Services.AddSingleton<ICustomerService>(provider => new CustomerService(provider.GetRequiredService<ICustomerRepository>()));
 
-            builder.Services.AddScoped<ICustomerRepository>(provider => new CustomerRepository(connectionSting));
-            builder.Services.AddSingleton<ICustomerService>(provider => new CustomerService(provider.GetRequiredService<ICustomerRepository>()));
-
-          
+            builder.Services.AddSingleton<IRentalRequestRepository>(provider => new RentalRequestRepository(connectionSting));
+            builder.Services.AddSingleton<IRentalRequestService>(provider => new RentalrequestService(provider.GetRequiredService<IRentalRequestRepository>()));
 
 
             builder.Services.AddControllers();
@@ -35,9 +35,12 @@ namespace dvdrental
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-          
-            builder.Services.AddScoped<IAdminService, AdminService>();
-            builder.Services.AddScoped<ICustomerService, CustomerService>();
+             
+            //builder.Services.AddScoped<IAdminService, AdminService>();
+            //builder.Services.AddScoped<ICustomerService, CustomerService>();
+
+            //builder.Services.AddScoped<IRentalRequestRepository, RentalRequestRepository>();
+            //builder.Services.AddScoped<IRentalRequestService, RentalrequestService>();
 
             var app = builder.Build();
 

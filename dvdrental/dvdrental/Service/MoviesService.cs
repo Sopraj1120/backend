@@ -19,36 +19,41 @@ namespace dvdrental.Service
 
         public async Task<MovieResponceDto> AddMovie(MoviesRequestDto request)
         {
-           
+            return new MovieResponceDto();
         }
 
         public async Task<List<MovieResponceDto>> GetAllMovies()
         {
-          
+            return new List<MovieResponceDto>();
+
+
         }
 
         public async Task<MovieResponceDto> GetMovieById(int id)
         {
-           
+            return new MovieResponceDto { Id = id };
         }
 
         public async Task<List<MovieResponceDto>> GetMoviesByCategory(int categoryId)
         {
-           
+            return new List<MovieResponceDto> { new MovieResponceDto { CategoryId = categoryId } };
         }
 
         public async Task<List<MovieResponceDto>> GetMoviesByDirector(string director)
         {
+            return new List<MovieResponceDto>();
         }
 
         public async Task<MovieResponceDto> UpdateMovie(int id, MoviesRequestDto request)
         {
+            return new MovieResponceDto();
            
         }
 
         public async Task<bool> DeleteMovie(int id)
         {
-           
+            return true;
+            
         }
     }
 }

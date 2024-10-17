@@ -86,34 +86,31 @@ internal class DatabaseInitial
             )
         END";
 
-            using (var movieCommand = new SqlCommand(movieQuery, connection))
-            {
-                movieCommand.ExecuteNonQuery();
-                Console.WriteLine("Movies table created if it didn't exist.");
-            }
-
+            //using (var movieCommand = new SqlCommand(movieQuery, connection))
+            //{
+            //    movieCommand.ExecuteNonQuery();
+            //    Console.WriteLine("Movies table created if it didn't exist.");
+            //}
 
             string rentalRequestQuery = @"
-        IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='RentalRequests' AND xtype='U')
-        BEGIN
-            CREATE TABLE RentalRequests (
-                Id INT PRIMARY KEY IDENTITY(1,1),
-                MovieId INT FOREIGN KEY REFERENCES Movies(Id),
-                CustomerId INT NOT NULL, 
-                RentDate DATETIME NOT NULL DEFAULT GETDATE(),
-                ReturnDate DATETIME NOT NULL ,
-                Status NVARCHAR(50) NOT NULL DEFAULT ''Pending'',
-                 MoviesAvailableCopies INT NOT NULL
-            )
-        END";
+                IF NOT EXISTS (SELECT * FROM sys.tables WHERE name='RentalRequests')
+                BEGIN
+                    CREATE TABLE RentalRequests (
+                        Id INT PRIMARY KEY IDENTITY(1,1),
+                        MovieId  INT NOT NULL,
+                        CustomerId INT NOT NULL, 
+                        RentDate DATETIME NOT NULL DEFAULT GETDATE(),
+                        ReturnDate DATETIME NOT NULL,
+                        Status NVARCHAR(50) NOT NULL DEFAULT 'Pending',
+                        MoviesAvailableCopies INT NOT NULL
+                    )
+                END";
 
             using (var rentalRequestCommand = new SqlCommand(rentalRequestQuery, connection))
             {
                 rentalRequestCommand.ExecuteNonQuery();
                 Console.WriteLine("RentalRequests table created if it didn't exist.");
             }
-
-            connection.Close();
         }
 
 

@@ -1,11 +1,12 @@
-﻿using dvdrental.DTOs.RequestDtos;
+﻿using dvdrental.DTOs;
+using dvdrental.DTOs.RequestDtos;
 using dvdrental.DTOs.ResponceDtos;
 
 namespace dvdrental.IService
 {
     public interface IRentalRequestService
     {
-        Task<RentalResponceDto> AddRentalRequest(RentalReuest_RequestDto rentalRequestDto);
+        Task<RentalResponceDto> AddRentalRequest(RentalRequestDto rentalRequestDto);
         Task<bool> AcceptRentalRequest(int id, bool isAccepted);
         Task<bool> ReturnRentalRequest(int id);
         Task<RentalResponceDto> GetRentalRequestById(int id);

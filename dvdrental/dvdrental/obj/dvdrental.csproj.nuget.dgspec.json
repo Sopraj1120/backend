@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {}
+    "X:\\GROUP_PROJECT_DVD_M2\\17-10-2024(G-P_M2)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {
+    "X:\\GROUP_PROJECT_DVD_M2\\17-10-2024(G-P_M2)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
+        "projectUniqueName": "X:\\GROUP_PROJECT_DVD_M2\\17-10-2024(G-P_M2)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
         "projectName": "dvdrental",
-        "projectPath": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
-        "packagesPath": "C:\\Users\\manch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manch\\Desktop\\backend\\github\\backend\\dvdrental\\dvdrental\\obj\\",
+        "projectPath": "X:\\GROUP_PROJECT_DVD_M2\\17-10-2024(G-P_M2)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
+        "packagesPath": "C:\\Users\\UT01141\\.nuget\\packages\\",
+        "outputPath": "X:\\GROUP_PROJECT_DVD_M2\\17-10-2024(G-P_M2)\\backend\\dvdrental\\dvdrental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\UT01141\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
