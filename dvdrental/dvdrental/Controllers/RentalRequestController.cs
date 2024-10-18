@@ -3,7 +3,9 @@ using dvdrental.DTOs.RequestDtos;
 using dvdrental.DTOs.ResponceDtos;
 using dvdrental.IService;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography.Xml;
 
 namespace dvdrental.Controllers
 {
@@ -21,7 +23,7 @@ namespace dvdrental.Controllers
 
         [HttpPost]
         [Route ("AddRentalRequest")]
-        public async Task<IActionResult> AddRentalRequest([FromBody] RentalRequestDto rentalRequestDto)
+        public async Task<IActionResult> AddRentalRequest([FromForm] RentalRequestDto rentalRequestDto)
         {
          
             if (rentalRequestDto == null)
@@ -38,7 +40,7 @@ namespace dvdrental.Controllers
 
         // PUT: api/rentalrequest/accept/{id}
         [HttpPut("accept/{id}")]
-        public async Task<IActionResult> AcceptRentalRequest(int id, [FromBody] bool isAccepted)
+        public async Task<IActionResult> AcceptRentalRequest(int id,  bool isAccepted)
         {
            
             var result = await _rentalRequestService.AcceptRentalRequest(id, isAccepted);
@@ -50,6 +52,72 @@ namespace dvdrental.Controllers
             }
             return NotFound(); // 404 Not Found
         }
+        [HttpGet("get-All-RentalRequest")]
+        public async Task<IActionResult> GetAllRentalRequests()
+        {
+            var data= await _rentalRequestService.GetAllRentalRequests();
+            return Ok(data);
+        }
+        [HttpGet("get-All-rentelrequests-bymovieId")]
+        public async Task<IActionResult> GetRentalsByMovieId(int movieId)
+        {
+          var data=_rentalRequestService.GetRentalsByMovieId(movieId);
+            return Ok(data);
+        }
+        [HttpGet("get-all-rentelrequest-bycustomerid")]
+        public async Task<IActionResult> GetRentalsByCustomerId(int customerId)
+        {
+            var data=_rentalRequestService.GetRentalsByCustomerId(customerId);
+            return Ok(data);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        }
+
+        [HttpGet("get-all-rentelrequest-byId/{id}")]
+        public async Task<IActionResult> GetRentalRequestById(int id)
+        {
+            var data = await _rentalRequestService.GetRentalRequestById(id);
+
+            if (data == null)
+            {
+                return NotFound(new { Message = "Rental request not found" });
+            }
+
+            return Ok(data);
+        }
+
+        [HttpGet("category/{categoryId}")]
+        public async Task<IActionResult> GetRentalsByCategoryId(int categoryId)
+        {
+            var data = await _rentalRequestService.GetRentalsByCategoryId(categoryId);
+
+            if (data == null || !data.Any())
+            {
+                return NotFound(new { Message = "No rental requests found for this category." });
+            }
+
+            return Ok(data);
+        }
+
+        [HttpGet("director/{director}")]
+        public async Task<IActionResult> GetRentalsByDirector(string director)
+        {
+            // Validate the input
+            if (string.IsNullOrWhiteSpace(director))
+            {
+                return BadRequest(new { Message = "Director name cannot be empty." });
+            }
+
+            var data = await _rentalRequestService.GetRentalsByDirector(director);
+
+            if (data == null || !data.Any())
+            {
+                return NotFound(new { Message = "No rental requests found for this director." });
+            }
+
+            return Ok(data);
+        }
+
+
+
 
     }
 

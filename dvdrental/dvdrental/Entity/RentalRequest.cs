@@ -23,12 +23,15 @@
 
         public DateTime RentDate { get; set; } = DateTime.Now;
         public DateTime ReturnDate { get; set; }
-        public string Image {  get; set; }
-        //public object MovieImageType { get;  set; }
-        //public object MovieImage { get;  set; }
-       
 
-        public enum RentalStatus
+        public IFormFile? imagefile { get; set; }
+
+    
+    //public object MovieImageType { get;  set; }
+    //public object MovieImage { get;  set; }
+
+
+    public enum RentalStatus
         {
             Pending,
             Approved,

@@ -38,7 +38,7 @@ namespace dvdrental.Controllers
                
                 return BadRequest(ex.Message);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
              
                 return StatusCode(500, "An unexpected error occurred while creating the customer.");
@@ -54,7 +54,7 @@ namespace dvdrental.Controllers
                 var customers = await _customerService.GetAllCustomers();
                 return Ok(customers);
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 
                 return StatusCode(500, "An unexpected error occurred while retrieving customers.");
@@ -75,7 +75,7 @@ namespace dvdrental.Controllers
                 }
                 return Ok(customer);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                
                 return StatusCode(500, $"An unexpected error occurred while retrieving customer with ID {id}.");
@@ -106,7 +106,7 @@ namespace dvdrental.Controllers
                
                 return NotFound(ex.Message);
             }
-            catch (Exception ex)
+            catch (Exception )
             {
               
                 return StatusCode(500, $"An unexpected error occurred while updating customer with ID {id}.");
@@ -127,7 +127,7 @@ namespace dvdrental.Controllers
                 }
                 return NoContent();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                
                 return StatusCode(500, $"An unexpected error occurred while deleting customer with ID {id}.");

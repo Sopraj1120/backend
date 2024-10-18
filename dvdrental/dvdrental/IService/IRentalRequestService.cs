@@ -9,8 +9,9 @@ namespace dvdrental.IService
         Task<RentalResponceDto> AddRentalRequest(RentalRequestDto rentalRequestDto);
         Task<bool> AcceptRentalRequest(int id, bool isAccepted);
         Task<bool> ReturnRentalRequest(int id);
-        Task<RentalResponceDto> GetRentalRequestById(int id);
+        Task<List<RentalResponceDto>> GetRentalRequestById(int id);
         Task<List<RentalResponceDto>> GetAllRentalRequests();
+
         Task<List<RentalResponceDto>> GetRentalsByMovieId(int movieId);
         Task<List<RentalResponceDto>> GetRentalsByCustomerId(int customerId);
         Task<List<RentalResponceDto>> GetRentalsByCategoryId(int categoryId);

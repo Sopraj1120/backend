@@ -1,6 +1,8 @@
-﻿using dvdrental.Entity;
+﻿using dvdrental.DTOs.ResponceDtos;
+using dvdrental.Entity;
 using dvdrental.IRepository;
 using Microsoft.Data.SqlClient;
+using static dvdrental.Repository.RentalRequestRepository;
 
 namespace dvdrental.Repository
 {
@@ -17,9 +19,10 @@ namespace dvdrental.Repository
         public async Task<RentalRequest> AddRentalRequest(RentalRequest rentalRequest)
         {
             const string query = @"
-             INSERT INTO RentalRequests (MovieId, CustomerId, RentDate, ReturnDate)
-             VALUE(@MovieId, @CustomerId, @RentDate, @ReturnDate);
+             INSERT INTO RentalRequests (MovieId, CustomerId, RentDate, ReturnDate,Imagepath)
+             VALUE(@MovieId, @CustomerId, @RentDate, @ReturnDate,@Imagepath);
              ";
+            
 
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -30,7 +33,7 @@ namespace dvdrental.Repository
                     command.Parameters.AddWithValue("@CustomerId", rentalRequest.CustomerId);
                     command.Parameters.AddWithValue("@RentDate", rentalRequest.RentDate);
                     command.Parameters.AddWithValue("@ReturnDate", rentalRequest.ReturnDate);
-                    //command.Parameters.AddWithValue("@MovieImage", rentalRequest.MovieImage);
+                    command.Parameters.AddWithValue("@Imagepath", rentalRequest.imagefile);
                     //command.Parameters.AddWithValue("@MovieImageType", rentalRequest.MovieImageType);
 
                     var id = await command.ExecuteScalarAsync();
@@ -61,84 +64,229 @@ namespace dvdrental.Repository
 
 
 
-        //public async Task<RentalRequest> GetRentalRequestById(int id)
-        //{
-            
+     
 
-        //}
-
-
-        //public async Task<List<RentalRequest>> GetAllRentalRequests()
-        //{
-        //}
-
-
-
-
-        //public async Task<List<RentalRequest>> GetRentalsByMovieId(int movieId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalRequest>> GetRentalsByCustomerId(int customerId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalRequest>> GetRentalsByCategoryId(int categoryId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalRequest>> GetRentalsByDirector(string director)
-        //{
-
-        //}
-
-        public Task NotifyAdminAboutRentalRequest(RentalRequest rentalRequest)
+    public async Task<List<RentalResponceDto>> GetAllRentalRequests()
         {
-            throw new NotImplementedException();
+            var responcelist= new List<RentalResponceDto>();
+            using(var connection=new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command=connection.CreateCommand();
+                command.CommandText = @"select * from RentalRequests";
+                using (var reader = command.ExecuteReader()) 
+                {
+                    while (reader.Read()) 
+                    
+                    {
+                        var reaponsemodel=new RentalResponceDto()
+                        {
+                            Id=reader.GetInt32(0),
+                            CustomerId=reader.GetInt32(1),
+                            MovieId=reader.GetInt32(2),
+                            RentDate=reader.GetDateTime(3),
+                            ReturnDate=reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status=reader.GetString(6),
+                            MovieAvailableCopies=reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(reaponsemodel);
+                    }
+                }
+                
+            }
+            return responcelist;
+
         }
 
-        public Task NotifyCustomerAboutRentalStatus(int rentalRequestId, string status)
+        public async Task<List<RentalResponceDto>> GetRentalRequestById(int id)
         {
-            throw new NotImplementedException();
+            var responcelist = new List<RentalResponceDto>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync(); // Await here to ensure connection is opened before executing the command
+                var command = connection.CreateCommand();
+                command.CommandText = @"SELECT * FROM RentalRequests WHERE Id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    if (await reader.ReadAsync()) // Await for reading the data asynchronously
+                    {
+                        var reaponsemodel = new RentalResponceDto()
+                        {
+                            Id = reader.GetInt32(0),
+                            CustomerId = reader.GetInt32(1),
+                            MovieId = reader.GetInt32(2),
+                            RentDate = reader.GetDateTime(3),
+                            ReturnDate = reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status = reader.GetString(6),
+                            MovieAvailableCopies = reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(reaponsemodel);
+                    }
+                }
+            }
+            return responcelist;
+           
         }
 
-        public Task NotifyCustomerAboutReturn(int rentalRequestId)
+
+        public async Task<List<RentalResponceDto>> GetRentalsByMovieId(int movieId)
         {
-            throw new NotImplementedException();
+            var responcelist = new List<RentalResponceDto>();
+
+            using (var connection=new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command=connection.CreateCommand();
+                command.CommandText = @"select *from RentalRequests where MovieId=@MovieId";
+                command.Parameters.AddWithValue("MovieId", movieId);
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+
+                    {
+                        var reaponsemodel = new RentalResponceDto()
+                        {
+                            Id = reader.GetInt32(0),
+                            CustomerId = reader.GetInt32(1),
+                            MovieId = reader.GetInt32(2),
+                            RentDate = reader.GetDateTime(3),
+                            ReturnDate = reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status = reader.GetString(6),
+                            MovieAvailableCopies = reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(reaponsemodel);
+                    }
+                }
+
+            }
+            return responcelist;
+
         }
 
-        public Task<RentalRequest> GetRentalRequestById(int id)
+        public async Task<List<RentalResponceDto>> GetRentalsByCustomerId(int customerId)
         {
-            throw new NotImplementedException();
+            var responcelist = new List<RentalResponceDto>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = connection.CreateCommand();
+                command.CommandText = @"select *from RentalRequests where CustomerId=@MovieId";
+                command.Parameters.AddWithValue("CustomerId", customerId);
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+
+                    {
+                        var reaponsemodel = new RentalResponceDto()
+                        {
+                            Id = reader.GetInt32(0),
+                            CustomerId = reader.GetInt32(1),
+                            MovieId = reader.GetInt32(2),
+                            RentDate = reader.GetDateTime(3),
+                            ReturnDate = reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status = reader.GetString(6),
+                            MovieAvailableCopies = reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(reaponsemodel);
+                    }
+                }
+
+            }
+            return responcelist;
         }
 
-        public Task<List<RentalRequest>> GetAllRentalRequests()
+        public async Task<List<RentalResponceDto>> GetRentalsByCategoryId(int categoryId)
         {
-            throw new NotImplementedException();
+            var responcelist = new List<RentalResponceDto>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = connection.CreateCommand();
+                command.CommandText = @"
+                       SELECT rr.Id, rr.CustomerId, rr.MovieId, rr.RentDate, rr.ReturnDate, rr.Imagepath, rr.Status, rr.MoviesAvailableCopies
+                       FROM RentalRequests rr
+                       JOIN Movies m ON rr.MovieId = m.Id
+                        WHERE m.CategoryId = @CategoryId";
+                command.Parameters.AddWithValue("@CategoryId", categoryId);
+
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        var responseModel = new RentalResponceDto()
+                        {
+                            Id = reader.GetInt32(0),
+                            CustomerId = reader.GetInt32(1),
+                            MovieId = reader.GetInt32(2),
+                            RentDate = reader.GetDateTime(3),
+                            ReturnDate = reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status = reader.GetString(6),
+                            MovieAvailableCopies = reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(responseModel);
+                    }
+                }
+            }
+
+            return responcelist;
         }
 
-        public Task<List<RentalRequest>> GetRentalsByMovieId(int movieId)
+
+        public async Task<List<RentalResponceDto>> GetRentalsByDirector(string director)
         {
-            throw new NotImplementedException();
+            var responcelist = new List<RentalResponceDto>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = connection.CreateCommand();
+                command.CommandText = @"
+            SELECT rr.Id, rr.CustomerId, rr.MovieId, rr.RentDate, rr.ReturnDate, rr.Imagepath, rr.Status, rr.MoviesAvailableCopies
+            FROM RentalRequests rr
+            JOIN Movies m ON rr.MovieId = m.Id
+            WHERE m.Director = @Director";
+                command.Parameters.AddWithValue("@Director", director);
+
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        var responseModel = new RentalResponceDto()
+                        {
+                            Id = reader.GetInt32(0),
+                            CustomerId = reader.GetInt32(1),
+                            MovieId = reader.GetInt32(2),
+                            RentDate = reader.GetDateTime(3),
+                            ReturnDate = reader.GetDateTime(4),
+                            Image = reader.GetString(5),
+                            Status = reader.GetString(6),
+                            MovieAvailableCopies = reader.GetInt32(7),
+                        };
+
+                        responcelist.Add(responseModel);
+                    }
+                }
+            }
+
+            return responcelist;
         }
 
-        public Task<List<RentalRequest>> GetRentalsByCustomerId(int customerId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<List<RentalRequest>> GetRentalsByCategoryId(int categoryId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<List<RentalRequest>> GetRentalsByDirector(string director)
+        Task<List<RentalRequest>> IRentalRequestRepository.GetRentalsByCategoryId(int categoryId)
         {
             throw new NotImplementedException();
         }

@@ -1,186 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "X:\\111111111111\\backend\\dvdrental\\",
+  "WorkspaceRootPath": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\data base\\databaseinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\data base\\databaseinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\responcedtos\\categoryresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\responcedtos\\categoryresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\irepository\\irentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\irepository\\irentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\categoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\categoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\responcedtos\\rentalresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\responcedtos\\rentalresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\entity\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\repository\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\repository\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\repository\\rentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\irentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\iservice\\irentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\irentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\irepository\\irentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\irepository\\irentalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\service\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\rentalrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\irepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\irepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\repository\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\repository\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\imoviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\imoviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\moviesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\moviesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\iservice\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\iservice\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\entity\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\adminrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\adminrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\entity\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\entity\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|x:\\111111111111\\backend\\dvdrental\\dvdrental\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\rentalrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\dtos\\responcedtos\\rentalresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\responcedtos\\rentalresponcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\dtos\\requestdtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\dtos\\requestdtos\\rentalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\entity\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\rentalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\service\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|d:\\projects\\17-10-2024(bacend_group)\\backend\\dvdrental\\dvdrental\\data base\\databaseinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302334DE-348F-47BD-94AC-E631147982D4}|dvdrental\\dvdrental.csproj|solutionrelative:dvdrental\\data base\\databaseinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -193,564 +77,217 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IRepository\\ICustomerRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\ICustomerRepository.cs",
-              "RelativeToolTip": "dvdrental\\IRepository\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:39:56.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseInitial.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Data base\\DatabaseInitial.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Data base\\DatabaseInitial.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Data base\\DatabaseInitial.cs",
-              "RelativeToolTip": "dvdrental\\Data base\\DatabaseInitial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:37:40.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryResponceDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\CategoryResponceDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\ResponceDtos\\CategoryResponceDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\CategoryResponceDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\ResponceDtos\\CategoryResponceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:36:25.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryRequestDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\CategoryRequestDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\CategoryRequestDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\CategoryRequestDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\CategoryRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:33:12.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Category.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Entity\\Category.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Category.cs",
-              "RelativeToolTip": "dvdrental\\Entity\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:25.487Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\CategoryDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\CategoryDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\CategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RentalRequestController.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\RentalRequestController.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Controllers\\RentalRequestController.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\RentalRequestController.cs",
+              "RelativeToolTip": "dvdrental\\Controllers\\RentalRequestController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:19.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IRepository\\ICategoryRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "dvdrental\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:33:21.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Program.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Program.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Program.cs",
-              "RelativeToolTip": "dvdrental\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAiwCAAAACRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:27:07.675Z",
+              "WhenOpened": "2024-10-17T19:10:31.093Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RentalrequestService.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\RentalrequestService.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Service\\RentalrequestService.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\RentalrequestService.cs",
+              "RelativeToolTip": "dvdrental\\Service\\RentalrequestService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAArwEwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:10:36.593Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentalRequestRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Repository\\RentalRequestRepository.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Repository\\RentalRequestRepository.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Repository\\RentalRequestRepository.cs",
+              "RelativeToolTip": "dvdrental\\Repository\\RentalRequestRepository.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAUwCIBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:10:51.281Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRentalRequestService.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\IService\\IRentalRequestService.cs",
+              "RelativeDocumentMoniker": "dvdrental\\IService\\IRentalRequestService.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\IService\\IRentalRequestService.cs",
+              "RelativeToolTip": "dvdrental\\IService\\IRentalRequestService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:11:19.356Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IRentalRequestRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\IRentalRequestRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\IRepository\\IRentalRequestRepository.cs",
               "RelativeDocumentMoniker": "dvdrental\\IRepository\\IRentalRequestRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\IRentalRequestRepository.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\IRepository\\IRentalRequestRepository.cs",
               "RelativeToolTip": "dvdrental\\IRepository\\IRentalRequestRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:19:10.455Z",
+              "WhenOpened": "2024-10-17T19:11:26.097Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\ICategoryService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\ICategoryService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Customer.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Entity\\Customer.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Customer.cs",
+              "RelativeToolTip": "dvdrental\\Entity\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:30:12.989Z",
+              "WhenOpened": "2024-10-18T05:00:31.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\CategoryService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\CategoryService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\CategoryService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAIwFsAAAAhAAAA",
+              "DocumentIndex": 5,
+              "Title": "Movies.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Movies.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Entity\\Movies.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Movies.cs",
+              "RelativeToolTip": "dvdrental\\Entity\\Movies.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:23:42.345Z",
+              "WhenOpened": "2024-10-18T05:00:11.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\appsettings.json",
-              "RelativeDocumentMoniker": "dvdrental\\appsettings.json",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\appsettings.json",
-              "RelativeToolTip": "dvdrental\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-17T08:46:18.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Controllers\\CategoryController.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "dvdrental\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAA0wEgAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "dvdrental\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAvwIEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:30:23.24Z",
+              "WhenOpened": "2024-10-18T04:41:32.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Repository\\CategoryRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "dvdrental\\Repository\\CategoryRepository.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAcwCsAAAAJAAAA",
+              "Title": "MoviesService.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\MoviesService.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Service\\MoviesService.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\MoviesService.cs",
+              "RelativeToolTip": "dvdrental\\Service\\MoviesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:41.282Z",
+              "WhenOpened": "2024-10-18T04:13:20.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CustomerRequestDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\CustomerRequestDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\CustomerRequestDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\CustomerRequestDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\CustomerRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Entity\\Category.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\Category.cs",
+              "RelativeToolTip": "dvdrental\\Entity\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:34:40.103Z",
+              "WhenOpened": "2024-10-18T03:39:07.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RentalRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\RentalRequest.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Entity\\RentalRequest.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Entity\\RentalRequest.cs",
+              "RelativeToolTip": "dvdrental\\Entity\\RentalRequest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:38:47.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\FileService.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Service\\FileService.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Service\\FileService.cs",
+              "RelativeToolTip": "dvdrental\\Service\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:01:33.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RentalRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
+              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
+              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:33:05.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "dvdrental\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:19:24.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "RentalRequestController.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\RentalRequestController.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Controllers\\RentalRequestController.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\RentalRequestController.cs",
-              "RelativeToolTip": "dvdrental\\Controllers\\RentalRequestController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADMAAAAJAAAA",
+              "Title": "DatabaseInitial.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Data base\\DatabaseInitial.cs",
+              "RelativeDocumentMoniker": "dvdrental\\Data base\\DatabaseInitial.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\Data base\\DatabaseInitial.cs",
+              "RelativeToolTip": "dvdrental\\Data base\\DatabaseInitial.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:14:37.391Z",
+              "WhenOpened": "2024-10-17T19:21:42.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RentalRequest.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\RentalRequest.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Entity\\RentalRequest.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\RentalRequest.cs",
-              "RelativeToolTip": "dvdrental\\Entity\\RentalRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:03:48.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RentalrequestService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\RentalrequestService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\RentalrequestService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\RentalrequestService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\RentalrequestService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:25:18.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\FileService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\FileService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\FileService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\FileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:50:28.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IFileService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\IFileService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IFileService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\IFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:54:16.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RentalRequestDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\RentalRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:03:57.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "RentalResponceDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
+              "DocumentMoniker": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
               "RelativeDocumentMoniker": "dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
+              "ToolTip": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
               "RelativeToolTip": "dvdrental\\DTOs\\ResponceDtos\\RentalResponceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:48:12.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RentalRequestRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\RentalRequestRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Repository\\RentalRequestRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\RentalRequestRepository.cs",
-              "RelativeToolTip": "dvdrental\\Repository\\RentalRequestRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:04:46.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\CustomerDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\CustomerDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\CustomerDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:20.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MovieDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\MovieDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\MovieDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\MovieDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\MovieDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:05:53.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IRentalRequestService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IRentalRequestService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\IRentalRequestService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IRentalRequestService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\IRentalRequestService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:42:44.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IMovieRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\IMovieRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IRepository\\IMovieRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IRepository\\IMovieRepository.cs",
-              "RelativeToolTip": "dvdrental\\IRepository\\IMovieRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:19:09.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Controllers\\CustomerController.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "dvdrental\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:29:42.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Controllers\\AdminController.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "dvdrental\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:29:37.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IMoviesService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IMoviesService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\IMoviesService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IMoviesService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\IMoviesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:30:14.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MoviesRequestDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\MoviesRequestDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\MoviesRequestDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\MoviesRequestDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\MoviesRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:49:29.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MoviesRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\MoviesRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Repository\\MoviesRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\MoviesRepository.cs",
-              "RelativeToolTip": "dvdrental\\Repository\\MoviesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:49:37.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MoviesService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\MoviesService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\MoviesService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\MoviesService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\MoviesService.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:23:44.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Repository\\CustomerRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "dvdrental\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:52.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\CustomerService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\CustomerService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\CustomerService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\CustomerService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:23:43.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\AdminService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Service\\AdminService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Service\\AdminService.cs",
-              "RelativeToolTip": "dvdrental\\Service\\AdminService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:23:40.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Repository\\AdminRepository.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Repository\\AdminRepository.cs",
-              "RelativeToolTip": "dvdrental\\Repository\\AdminRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:37.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\ICustomerService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\ICustomerService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:30:13.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IAdminService.cs",
-              "RelativeDocumentMoniker": "dvdrental\\IService\\IAdminService.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\IService\\IAdminService.cs",
-              "RelativeToolTip": "dvdrental\\IService\\IAdminService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:30:10.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AdminRequestDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\AdminRequestDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\RequestDtos\\AdminRequestDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\RequestDtos\\AdminRequestDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\RequestDtos\\AdminRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:29:50.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Controllers\\MovieController.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "dvdrental\\Controllers\\MovieController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:29:44.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AdminDto.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\AdminDto.cs",
-              "RelativeDocumentMoniker": "dvdrental\\DTOs\\AdminDto.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\DTOs\\AdminDto.cs",
-              "RelativeToolTip": "dvdrental\\DTOs\\AdminDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:17.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Admin.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Entity\\Admin.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Admin.cs",
-              "RelativeToolTip": "dvdrental\\Entity\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:24.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Movies.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Movies.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Entity\\Movies.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Movies.cs",
-              "RelativeToolTip": "dvdrental\\Entity\\Movies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:27.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Customer.cs",
-              "RelativeDocumentMoniker": "dvdrental\\Entity\\Customer.cs",
-              "ToolTip": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\Entity\\Customer.cs",
-              "RelativeToolTip": "dvdrental\\Entity\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:24:26.813Z"
+              "WhenOpened": "2024-10-17T19:20:05.262Z",
+              "EditorCaption": ""
             }
           ]
         }

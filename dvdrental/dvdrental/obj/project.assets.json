@@ -2104,19 +2104,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UT01126\\.nuget\\packages\\": {}
+    "C:\\Users\\thana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
+      "projectUniqueName": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
       "projectName": "dvdrental",
-      "projectPath": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
-      "packagesPath": "C:\\Users\\UT01126\\.nuget\\packages\\",
-      "outputPath": "X:\\111111111111\\backend\\dvdrental\\dvdrental\\obj\\",
+      "projectPath": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\dvdrental.csproj",
+      "packagesPath": "C:\\Users\\thana\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\17-10-2024(Bacend_Group)\\backend\\dvdrental\\dvdrental\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UT01126\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2176,7 +2176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

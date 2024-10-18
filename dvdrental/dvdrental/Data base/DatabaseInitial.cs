@@ -20,7 +20,7 @@ internal class DatabaseInitial
 
 
             string adminQuery = @"
-                    IF NOT EXISTS (SELECT * FROM sys.Table WHERE name='Admins' )
+                    IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Admins' AND xtype='U')
                     BEGIN
                         CREATE TABLE Admins (
                             Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -77,20 +77,20 @@ internal class DatabaseInitial
                 Id INT PRIMARY KEY IDENTITY(1,1),
                 Title NVARCHAR(255) NOT NULL,
                 Director NVARCHAR(255),
-                Description NVARCHAR(MAX),
+                Description NVARCHAR(100),
                 ReleaseDate DATETIME NOT NULL,
                 No_of_Copies INT NOT NULL,
                 CategoryId INT FOREIGN KEY REFERENCES Categories(Id),
-                Image VARBINARY(MAX) 
+                Image NVARCHAR(150),
                 IsDeleted BIT DEFAULT 0 
             )
         END";
 
-            //using (var movieCommand = new SqlCommand(movieQuery, connection))
-            //{
-            //    movieCommand.ExecuteNonQuery();
-            //    Console.WriteLine("Movies table created if it didn't exist.");
-            //}
+            using (var movieCommand = new SqlCommand(movieQuery, connection))
+            {
+                movieCommand.ExecuteNonQuery();
+                Console.WriteLine("Movies table created if it didn't exist.");
+            }
 
             string rentalRequestQuery = @"
                 IF NOT EXISTS (SELECT * FROM sys.tables WHERE name='RentalRequests')
@@ -101,6 +101,7 @@ internal class DatabaseInitial
                         CustomerId INT NOT NULL, 
                         RentDate DATETIME NOT NULL DEFAULT GETDATE(),
                         ReturnDate DATETIME NOT NULL,
+                        Imagepath NVARCHAR(50),
                         Status NVARCHAR(50) NOT NULL DEFAULT 'Pending',
                         MoviesAvailableCopies INT NOT NULL
                     )

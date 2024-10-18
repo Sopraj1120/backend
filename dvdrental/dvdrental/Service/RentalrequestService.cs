@@ -4,6 +4,7 @@ using dvdrental.DTOs.ResponceDtos;
 using dvdrental.Entity;
 using dvdrental.IRepository;
 using dvdrental.IService;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace dvdrental.Service
 {
@@ -17,10 +18,11 @@ namespace dvdrental.Service
         {
             _rentalRequestsRepository = rentalRequestsRepository;
         }
-
-        public Task<bool> AcceptRentalRequest(int id, bool isAccepted)
+                                                     
+        public async Task<bool> AcceptRentalRequest(int id, bool isAccepted)
         {
-            throw new NotImplementedException();
+            var data = await _rentalRequestsRepository.AcceptRentalRequest(id, isAccepted);
+                return data;
         }
 
         public async Task<RentalResponceDto> AddRentalRequest(RentalRequestDto rentalRequestDto)
@@ -31,7 +33,7 @@ namespace dvdrental.Service
                 CustomerId = rentalRequestDto.CustomerId,
                 RentDate = rentalRequestDto.RentDate,
                 ReturnDate = rentalRequestDto.ReturnDate,
-                //MovieImage = rentalRequestDto.MovieImage,
+                imagefile = rentalRequestDto.imagefile
                 //MovieImageType = rentalRequestDto.MovieImageType,
             };
 
@@ -45,6 +47,7 @@ namespace dvdrental.Service
                 CustomerId = addedRentalRequest.CustomerId,
                 RentDate = addedRentalRequest.RentDate,
                 ReturnDate = addedRentalRequest.ReturnDate,
+                imagefile=addedRentalRequest.imagefile
                 //MovieImage = (byte[])addedRentalRequest.MovieImage,
                 //MovieImageType = (string)addedRentalRequest.MovieImageType
             };
@@ -53,34 +56,45 @@ namespace dvdrental.Service
 
         }
 
-        public Task<List<RentalResponceDto>> GetAllRentalRequests()
+        public async Task<List<RentalResponceDto>> GetAllRentalRequests()
         {
-            throw new NotImplementedException();
+            var data=await _rentalRequestsRepository.GetAllRentalRequests();
+            return data;
         }
 
-        public Task<RentalResponceDto> GetRentalRequestById(int id)
+
+
+        public async Task<List<RentalResponceDto>> GetRentalRequestById(int id)
         {
-            throw new NotImplementedException();
+            var data = await _rentalRequestsRepository.GetRentalRequestById(id);
+            return data;
+
         }
 
-        public Task<List<RentalResponceDto>> GetRentalsByCategoryId(int categoryId)
+        public async Task<List<RentalResponceDto>> GetRentalsByCategoryId(int categoryId)
         {
-            throw new NotImplementedException();
+            var data = await _rentalRequestsRepository.GetRentalsByCategoryId(categoryId);
+            return data;
+
         }
 
-        public Task<List<RentalResponceDto>> GetRentalsByCustomerId(int customerId)
+        public async Task<List<RentalResponceDto>> GetRentalsByCustomerId(int customerId)
         {
-            throw new NotImplementedException();
+            var data=await _rentalRequestsRepository.GetRentalsByCustomerId(customerId);
+            return data;
         }
 
-        public Task<List<RentalResponceDto>> GetRentalsByDirector(string director)
+        public async Task<List<RentalResponceDto>> GetRentalsByDirector(string director)
         {
-            throw new NotImplementedException();
+            var data = await _rentalRequestsRepository.GetRentalsByDirector(director);
+            return data;
+
         }
 
         public Task<List<RentalResponceDto>> GetRentalsByMovieId(int movieId)
         {
-            throw new NotImplementedException();
+            var data=_rentalRequestsRepository.GetRentalsByMovieId(movieId);
+            return data;
         }
 
         public Task<bool> ReturnRentalRequest(int id)
@@ -88,54 +102,6 @@ namespace dvdrental.Service
             throw new NotImplementedException();
         }
 
-
-
-        //public async Task<bool> AcceptRentalRequest(int id, bool isAccepted)
-        //{
-
-        //}
-
-
-        //public async Task<bool> ReturnRentalRequest(int id)
-        //{
-
-        //}
-
-
-        //public async Task<RentalResponceDto> GetRentalRequestById(int id)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalResponceDto>> GetAllRentalRequests()
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalResponceDto>> GetRentalsByMovieId(int movieId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalResponceDto>> GetRentalsByCustomerId(int customerId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalResponceDto>> GetRentalsByCategoryId(int categoryId)
-        //{
-
-        //}
-
-
-        //public async Task<List<RentalResponceDto>> GetRentalsByDirector(string director)
-        //{
-
-        //}
     }
 
 }
